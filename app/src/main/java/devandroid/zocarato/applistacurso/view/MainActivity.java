@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         pessoa = new Pessoa();
+        //oi
 
         outraPessoa = new Pessoa();
         outraPessoa.setPrimeiroNome("José");
