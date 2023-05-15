@@ -7,10 +7,10 @@
     tools:context=".view.MainActivity">
 
     <TextView
-        android:background="@color/black"
         android:id="@+id/txt_titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/black"
         android:text="@string/txt_titulo"
         android:textSize="18sp"
         android:textStyle="bold"
@@ -27,11 +27,11 @@
         android:layout_margin="16dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_primeiro_nome"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_titulo"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/txt_titulo" />
 
     <EditText
         android:id="@+id/edit_sobrenome"
@@ -41,11 +41,11 @@
         android:layout_marginTop="20dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_sobrenome"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_primeiro_nome"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_primeiro_nome" />
 
     <EditText
         android:id="@+id/edit_nome_do_curso"
@@ -54,11 +54,11 @@
         android:layout_margin="16dp"
         android:ems="10"
         android:hint="@string/txt_hint_edit_nome_do_curso"
+        android:importantForAutofill="no"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edit_sobrenome"
-        android:importantForAutofill="no" />
+        app:layout_constraintTop_toBottomOf="@+id/edit_sobrenome" />
 
     <EditText
         android:id="@+id/edit_telefone_contato"
@@ -113,7 +113,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="By Zocarato V0.0.1"
+        android:text="By Zocarato V0.5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
